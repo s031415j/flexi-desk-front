@@ -1,0 +1,56 @@
+.time-block {
+  display: flex;
+}
+
+.tile {
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  padding: 4px 14px 4px 4px;
+  width: auto;
+  text-align: center;
+  align-items: center;
+  height: auto;
+  cursor: pointer;
+  margin: 8px 8px 8px 0;
+  background-color: #ffffff;
+}
+
+#label-text{
+  font-size: 14px;
+}
+
+.tile--selected {
+  border: 1px solid #5514b4;
+  color: #5514b4;
+}
+
+.date-section {
+  margin-bottom: 24px;
+  width: fit-content;
+}
+
+.date-section {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#save-time-btn{
+  margin-bottom: 8px;
+}
+
+#time-heading{
+  padding-bottom: 32px;
+}
+
+.time-options{
+  display: flex;
+}
+
+.sub-heading-container{
+  margin-bottom: 16px;
+}
+
+#time-sub-heading{
+  margin-top:24px;
+}

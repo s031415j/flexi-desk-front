@@ -1,0 +1,31 @@
+.bank-container {
+  display: flex;
+}
+
+.desk-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 20px);
+  grid-template-rows: repeat(4, 25px);
+  gap: 4px;
+  margin-right: 1rem;
+}
+
+.horizontal {
+  height: 54px;
+}
+
+.bottom{
+  rotate: 180deg;
+}
+
+.left{
+  rotate: 270deg;
+  height: 54px;
+  margin-bottom: 1rem;
+}
+
+.right{
+  rotate: 90deg;
+  height: 54px;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,47 @@
+.coloumn-1{
+    float: left;
+    padding-right: 46px;
+}
+
+.coloumn-2{
+    float: left;
+}
+
+.coloumn-3{
+    float: right;
+}
+
+#key-coloumn-1{
+padding-right: 8px;
+}
+
+.key {
+    width: 25px;
+    height: 20px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+}
+
+.key-container{
+    display: flex;
+}
+
+.tag{
+    margin: 2px 16px 0 4px;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.next-btn{
+    display: flex;
+    justify-content: right;
+    margin-top: -32px;
+}
+
+.right-row{
+    height: 640px;
+}

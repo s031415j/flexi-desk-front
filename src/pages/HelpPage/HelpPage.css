@@ -1,0 +1,32 @@
+.secondary-btn {
+  background-color: #fff;
+  border: 1px solid #5514b4;
+  color: #5514b4;
+}
+
+.secondary-btn:hover {
+  background-color: #fff;
+  border: 1px solid #ff80ff;
+  color: #ff80ff;
+}
+
+.content {
+  margin-top: 32px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.helping-icon {
+    height: 20px;
+}
+
+li{
+    margin-bottom: 16px;
+}
+
+.help-section{
+    margin-bottom: 40px;
+}

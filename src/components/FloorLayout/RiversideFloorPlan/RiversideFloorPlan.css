@@ -1,0 +1,42 @@
+.top-section {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.right-section {
+  position: absolute;
+  top: 120px;
+  right: 0;
+}
+
+.bottom-section {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 4px;
+}
+
+.left-section {
+  position: absolute;
+  top: 120px;
+  margin-left: 6px;
+  left: 0;
+}
+
+.floor-plan-container {
+  width: 700px;
+  height: 640px;
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 662px) {
+  page {
+    overflow-x: hidden;
+  }
+}

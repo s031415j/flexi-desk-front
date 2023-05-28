@@ -1,0 +1,44 @@
+.box-container {
+  border: 1px solid #dfdfdf;
+  box-shadow: 0 1px 2px #d9d9d9;
+  padding: 16px 50px;
+}
+
+.my-details {
+  margin-bottom: 32px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.border{
+  border: 1px solid #d9d9d9;
+  padding: 16px 16px 32px 16px;
+  border-radius: 5px;
+}
+
+.add-icon{
+  margin:0;
+  height: 20px;
+}
+
+.add-btn{
+    background-color: #fff;
+    border: none;
+}
+
+.add-btn-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
